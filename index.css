@@ -1,0 +1,441 @@
+
+.portfolio-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.navlist{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    
+}
+.navlist li a:hover{
+    background:transparent;
+   color:#5DB9EE ; 
+   text-shadow:0 0 1rem #fff ;
+}
+.left-container,.right-container{
+ height: 100vh;
+}
+.left-container{
+    background: #262525;
+    width: 70%;
+    
+}
+.icon{
+    font-size: 25px;
+   
+    margin-left: -55rem;
+    margin-top: 12rem;
+    gap: 2px;
+}
+.icon .fa-brands{
+    cursor: pointer;
+    background: linear-gradient(#fff,#3877ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon .fa-brands:hover{
+    box-shadow:0 0 1rem #fff ;
+}
+.icon a i{
+       color: white;
+       
+}
+.about{
+    color: white;
+    margin-top: -15rem;
+    margin-left: -20rem;
+    
+}
+.about h1{
+    color:#5DB9EE ;
+    font-size: 50px; 
+    margin-left: -8rem;
+    margin-bottom: -1rem;
+    
+}
+.about h3{
+    margin-left: -12.5rem;
+    margin-bottom: -2rem;
+}
+.about h3 a{
+    color:#5DB9EE ;
+    font-size: 30px;
+}
+.button{
+    margin-left: -15.5rem;
+    margin-top: 3rem;
+}
+.button button{
+    border: .1rem solid #5DB9EE;
+    font-size: 1.1rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    
+}
+.btn1{
+ background: #5DB9EE;
+}
+.btn1:hover{
+    background: transparent;
+    color:#5DB9EE;
+}
+.btn2{
+    background:transparent;
+   color:#5DB9EE ; 
+   margin-left: 2rem;
+   margin-right: 8rem;
+}
+.btn2:hover{
+    background: #5DB9EE;
+    color: #262525;
+}
+.btn3{
+    background: #5DB9EE;
+    
+}
+.btn3:hover{
+    background: transparent;
+    color:#5DB9EE;
+}
+.right-container{
+    background: linear-gradient(-45deg,#3877ff, #262525 70%);
+    width: 30%;
+}
+.desing .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.circle:nth-child(1){
+    background: linear-gradient(90deg,#262525 50%,#262525 50%);
+    width: 38rem;
+}
+.circle:nth-child(2){
+    background-image: url("img.jpg");
+    background-size: 100%;
+    width: 30rem;
+    background-repeat: no-repeat;
+    border: .5rem solid white;
+    box-shadow: 0 0 1rem #fff,
+    inset 0 0  1rem #fff,
+    0 0 2rem #3877ff,
+    inset 0 0 2rem #3877ff,
+    0 0 4rem #3877ff,
+    inset 0 0 4rem #3877ff;
+} 
+/* ----------- about section------------- */
+.abt h1{
+    color: #5DB9EE;
+    margin-top: 9rem;
+    margin-left: -14rem;
+    margin-bottom: 3rem;
+}
+.abt h3{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: -2%;
+    margin-left: -16rem;
+    
+} 
+.abt  p{
+    color:#5DB9EE ;
+    font-size: 1.8rem;
+    margin-top: -2%;
+    margin-left: -16rem;
+}
+/* ----------contact section--------- */
+.contect-icon {
+    font-size: 2rem;
+    color: white;
+    margin-left: -48rem;
+    margin-top: 12rem;
+    
+} 
+.contect-icon a i:hover{
+    box-shadow:0 0 1rem #fff ;
+}
+.contect {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: -18.5rem;
+    margin-left: -21rem;
+    gap: 2px;
+}
+.contect p{
+    padding-top: 15px;
+}
+.p1{
+    margin-left: -16rem;
+}
+ .p2{
+    margin-left: -8rem;
+    margin-top: 2rem;
+}
+.p3{
+    margin-left: -8rem;
+    margin-top: 2rem;
+}
+.p4{
+    margin-left: -6rem;
+    margin-top: 2rem;
+} 
+/* ------------Education section--------- */
+.details h1{
+    color: #5DB9EE;
+    margin-top: 9rem;
+    margin-left: -14rem;
+}
+.details h3{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    margin-left: -16rem;
+}
+.details p{
+    color:#5DB9EE ;
+    font-size: 1.8rem;
+    margin-top: 4%;
+    margin-left: -16rem;
+}
+.details a{
+    color: white;
+    font-size: 1.8rem;
+    margin-left: -15rem;
+    text-decoration: none;
+}
+.project li{
+    list-style: none;
+}
+.project :hover{
+    background:transparent;
+   color:#5DB9EE ; 
+   text-shadow:0 0 1rem #fff ;
+}
+/* ----------skils section-------- */
+.skills h1{
+    color: #5DB9EE;
+    margin-top: 8rem;
+    margin-left: -14rem;
+}
+.skills h3{
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: -1%;
+    margin-left: -16rem;
+}
+.skills p{
+    color:#5DB9EE ;
+    font-size: 1.3rem;
+    margin-top: -1%;
+    margin-left: -16rem;
+}
+.skill{
+    margin-top: -7rem;
+}
+@media screen and (max-width:600px)
+{
+    .icon{
+        font-size: 10px;
+       
+        margin-left: 1rem;
+        margin-top: 12rem;
+        gap: 2px;
+    }
+    .icon a i{
+        color: white;
+        
+        
+ }
+    .circle:nth-child(2){
+        background-image: url("img.jpg");
+        background-size: 100%;
+        width: 16rem;
+        
+        background-repeat: no-repeat;
+        border: .5rem solid white;
+        box-shadow: 0 0 1rem #fff,
+        inset 0 0  1rem #fff,
+        0 0 2rem #3877ff,
+        inset 0 0 2rem #3877ff,
+        0 0 4rem #3877ff,
+        inset 0 0 4rem #3877ff;
+    } 
+    .circle:nth-child(1){
+        background: linear-gradient(90deg,#262525 50%,#262525 50%);
+        width: 21rem;
+    }
+    .desing .circle{
+        aspect-ratio: 1;
+        position: absolute;
+        border-radius: 50%;
+        top: 31%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: fixed;
+        
+    }
+    
+    .about{
+        color: white;
+        margin-top: 45%;
+        margin-left: 25%;
+    }
+    .about h1{
+        color:#5DB9EE ;
+        font-size: 25px; 
+        margin-left: 15%;
+        margin-bottom: -1rem; 
+         
+    }
+    .about h3{
+        margin-left: 10%;
+        margin-bottom: .5rem;
+
+    }
+    .about h3 a{
+        color:#5DB9EE ;
+        font-size: 20px;
+    }
+    .button button{
+        border: .1rem solid #5DB9EE;
+        font-size: .8rem;
+        padding: .5rem .5rem;
+        border-radius: .5rem;
+        cursor: pointer;
+    }
+    .button{
+        
+         margin-top: 2rem; 
+    
+    }
+    .btn1{
+        background: #5DB9EE;
+        margin-right: 2rem;
+        margin-left: 7rem;
+        
+       }
+    .btn2{
+        background:transparent;
+       color:#5DB9EE ; 
+       margin-left: 22rem;
+       margin-right: .1rem;
+     
+    }
+    .btn3{
+        background: #5DB9EE;
+        
+    }
+    .abt h1{
+        color: #5DB9EE;
+        margin-top: 100%;
+        margin-left: 20%;
+        
+    }
+    .abt h3{
+        color: #fff;
+        font-size: 14px;
+        margin-top: -2%;
+        margin-left: 20%;
+        
+    } 
+    .abt  p{
+        color:#5DB9EE ;
+        font-size: 13px;
+        margin-top: -2%;
+        margin-left: 30%;
+    }
+    .contect-icon {
+        font-size: 20px;
+        color: white;
+        margin-left: 50rem;
+        margin-top: 50%;
+        
+    } 
+    
+    .contect {
+        font-size: 20px;
+        color: white;
+        margin-top: 30%;
+        margin-left: 10rem;
+        gap: 2px;
+    }
+    .contect p{
+        padding-top: 10px;
+    }
+    .p1{
+        margin-left: -16rem;
+    }
+     .p2{
+        margin-left: -8rem;
+        margin-top: 1rem;
+    }
+    .p3{
+        margin-left: -8rem;
+        margin-top: 1rem;
+    }
+    .p4{
+        margin-left: -6rem;
+        margin-top: 1rem;
+    }
+    .details h1{
+        color: #5DB9EE;
+        margin-top: 110%;
+        margin-left: 4rem;
+    }
+    .details h3{
+        color: #fff;
+        font-size: 1rem;
+        margin-top: 4%;
+        margin-left: 4rem;
+    }
+    .details p{
+        color:#5DB9EE ;
+        font-size: 1rem;
+        margin-top: 4%;
+        margin-left: 4rem;
+    }
+    .details a{
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 4rem;
+        text-decoration: none;
+    }
+    
+    .skills {
+        margin-top: 25rem;
+        margin-bottom: 2rem;
+        margin-left: 15rem;
+        font-size: .6rem;
+
+    }
+    .skills h3{
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+    .skills p{
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+}
