@@ -254,13 +254,14 @@
 .skill{
     margin-top: -7rem;
 }
-@media screen and (max-width:800px)
+@media screen and (max-width:1200px)
 {
     .icon{
-        font-size: 10px;
-       
-        margin-left: 1rem;
-        margin-top: 12rem;
+        font-size: 20px;
+        
+        margin-left: -9.5rem;
+        margin-right: 4rem;
+        margin-top: 27rem;
         gap: 2px;
     }
     .icon a i{
@@ -299,7 +300,7 @@
     
     .about{
         color: white;
-        margin-top: 45%;
+        margin-top: -10rem;
         margin-left: 25%;
     }
     .about h1{
@@ -368,24 +369,26 @@
     }
     .contect-icon {
         font-size: 20px;
-        color: white;
-        margin-left: 50rem;
-        margin-top: 50%;
+        
+        margin-left: -9.5rem;
+        margin-right: 4rem;
+        margin-top: 27rem;
         
     } 
     
     .contect {
-        font-size: 20px;
+        margin-top: -11rem;
+        margin-left: 35%;
+        font-size: 15px;
         color: white;
-        margin-top: 30%;
-        margin-left: 10rem;
+        
         gap: 2px;
     }
     .contect p{
         padding-top: 10px;
     }
     .p1{
-        margin-left: -16rem;
+        margin-left: -14rem;
     }
      .p2{
         margin-left: -8rem;
