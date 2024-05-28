@@ -254,14 +254,14 @@
 .skill{
     margin-top: -7rem;
 }
-@media screen and (max-width:600px)
+@media screen and (max-width:480px)
 {
     .icon{
         font-size: 20px;
         
         margin-left: -9.5rem;
         margin-right: 4rem;
-        margin-top: 27rem;
+        margin-top: 50rem;
         gap: 2px;
     }
     .icon a i{
@@ -272,7 +272,7 @@
     .circle:nth-child(2){
         background-image: url("img.jpg");
         background-size: 100%;
-        width: 16rem;
+        width: 20rem;
         
         background-repeat: no-repeat;
         border: .5rem solid white;
@@ -285,13 +285,13 @@
     } 
     .circle:nth-child(1){
         background: linear-gradient(90deg,#262525 50%,#262525 50%);
-        width: 21rem;
+        width: 22rem;
     }
     .desing .circle{
         aspect-ratio: 1;
         position: absolute;
         border-radius: 50%;
-        top: 31%;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
         position: fixed;
@@ -341,7 +341,7 @@
         background:transparent;
        color:#5DB9EE ; 
        margin-left: 22rem;
-       margin-right: .1rem;
+       margin-right: 1rem;
      
     }
     .btn3{
