@@ -260,7 +260,7 @@
         font-size: 30px;
         
         margin-left: -15rem;
-        margin-right: 6rem;
+        margin-right: 8rem;
         margin-top: 50rem;
         gap: 2px;
     }
@@ -321,7 +321,7 @@
     }
     .button button{
         border: .1rem solid #5DB9EE;
-        font-size: .6rem;
+        font-size: 1rem;
         padding: .5rem .5rem;
         border-radius: .5rem;
         cursor: pointer;
