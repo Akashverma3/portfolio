@@ -257,10 +257,10 @@
 @media screen and (max-width:100vh)
 {
     .icon{
-        font-size: 20px;
+        font-size: 30px;
         
-        margin-left: -9.5rem;
-        margin-right: 4rem;
+        margin-left: -15rem;
+        margin-right: 6rem;
         margin-top: 50rem;
         gap: 2px;
     }
@@ -272,7 +272,7 @@
     .circle:nth-child(2){
         background-image: url("img.jpg");
         background-size: 100%;
-        width: 20rem;
+        width: 25rem;
         
         background-repeat: no-repeat;
         border: .5rem solid white;
@@ -285,13 +285,13 @@
     } 
     .circle:nth-child(1){
         background: linear-gradient(90deg,#262525 50%,#262525 50%);
-        width: 22rem;
+        width: 23rem;
     }
     .desing .circle{
         aspect-ratio: 1;
         position: absolute;
         border-radius: 50%;
-        top: 10%;
+        top: 17%;
         left: 50%;
         transform: translate(-50%, -50%);
         position: fixed;
@@ -305,7 +305,7 @@
     }
     .about h1{
         color:#5DB9EE ;
-        font-size: 25px; 
+        font-size: 27px; 
         margin-left: 15%;
         margin-bottom: -1rem; 
          
@@ -321,7 +321,7 @@
     }
     .button button{
         border: .1rem solid #5DB9EE;
-        font-size: .8rem;
+        font-size: .6rem;
         padding: .5rem .5rem;
         border-radius: .5rem;
         cursor: pointer;
@@ -333,7 +333,7 @@
     }
     .btn1{
         background: #5DB9EE;
-        margin-right: 2rem;
+        margin-right: -1rem;
         margin-left: 7rem;
         
        }
