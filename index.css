@@ -333,8 +333,8 @@
     }
     .btn1{
         background: #5DB9EE;
-        margin-right: -10rem;
-        margin-left: 10rem;
+        margin-right: -7rem;
+        margin-left: 5rem;
         
        }
     .btn2{
@@ -427,7 +427,7 @@
     }
     
     .skills {
-        margin-top: 25rem;
+        margin-top: 35rem;
         margin-bottom: 2rem;
         margin-left: 15rem;
         font-size: .6rem;
