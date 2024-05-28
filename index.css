@@ -254,7 +254,7 @@
 .skill{
     margin-top: -7rem;
 }
-@media screen and (max-width:600px)
+@media screen and (max-width:100vh)
 {
     .icon{
         font-size: 20px;
